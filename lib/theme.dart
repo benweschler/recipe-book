@@ -9,7 +9,8 @@ class AppTheme {
 }
 
 class Insets {
-  // We explicitly type Insets as double to avoid automatic casting to int.
+  // We explicitly type Insets as double instead of num to avoid automatic
+  // casting to int.
   static const double sm = 10;
   static const double med = 15;
   static const double lg = 25;

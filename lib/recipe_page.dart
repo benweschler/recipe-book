@@ -122,9 +122,9 @@ class RecipeDetails extends StatelessWidget {
         titleText,
         const SizedBox(height: Insets.med),
         reviewRow,
-        const SizedBox(height: 20),
+        const SizedBox(height: Insets.lg),
         iconRow,
-        const SizedBox(height: 10),
+        const SizedBox(height: Insets.sm),
         description,
       ],
     );
